@@ -16,7 +16,7 @@ projection_periods = list(range(int(base_year) + 1, int(end_year) +1))
 base_and_projection_periods = list(range(int(base_year)-1, int(end_year) +1))
 
 det_paths = ["1.Corporate - Baseline"]
-paths =range(1,1001)
+paths =range(1,10000)
 
 #creating a shell output file for storing simulation results and base year
 df_input_computation_base = df_input_computation.copy()
