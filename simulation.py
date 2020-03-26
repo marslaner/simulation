@@ -42,7 +42,7 @@ for x in historical_periods:
     for indicator in list_indicators:
         df_indicator_output[(str(-1) + '__' + indicator + '__' + str(x))] = df_indicator_output_base[(str(-1) + '__' + indicator + '__' + str(x))]
 
-#simulation part which takes several hours
+#SIMULATIONS START HERE! which takes several hours
 for i in paths: 
     print(i)
     for z in range(0, len(projection_periods)):
